@@ -23,7 +23,7 @@ function button4() {
 
 
 function button5() {
-  let text = "<style>button {margin: 0px 40px; margin-bottom: 30px}</style><h1>essa foi fácil, segunda pergunta!</h1><h2>alguma dia vais me abandonar?</h2><br><button onclick='button7()'>não!</button><br><button onclick='button6()'>sim, se me tratares mal</button><h1><a href='#' onclick='button4();'>Voltar</a></h1>";
+  let text = "<style>button {margin: 0px 40px; margin-bottom: 30px}</style><h1>essa foi fácil, segunda pergunta!</h1><h2>algum dia vais me abandonar?</h2><br><button onclick='button7()'>não!</button><br><button onclick='button6()'>sim, se me tratares mal</button><h1><a href='#' onclick='button4();'>Voltar</a></h1>";
   document.getElementById("things").innerHTML = text;
 }
 
