@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.background {
+  height: 100vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  font-size: large;
+}
+
+.box {
+  background-color: #fff;
+  width: 100vw;
+  max-width: 500px;
+  height: 18vh;
+  border-radius: 35px;
+  padding: 3rem;
+  text-align: center;
+}
+
+button {
+  background-color: #ef1515;
+  border: none;
+  color: white;
+  padding: 15px 25px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin: 0px 38px;
+  margin-bottom: 30px;
+  border-radius: 9px;
+}
+
+button:hover {
+  background-color: #000000;
+  transform: scale(1.05);
+  color: white;
+}
