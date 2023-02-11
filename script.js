@@ -47,6 +47,11 @@ function button9() {
 }
 
 function button10() {
-  let text = "<style>.box {margin-top: -26rem;}button {margin: 0px 40px; margin-bottom: 30px}</style><h1>POUCA-VERGONHA!</h1><h1>aprende a ter paciência amor</h1><h1>mas em princípio vais ter algo á tua espera quando chegares a casa ;)</h1><h1>incialmente pensei em só escrever um texto mas queria ser um bocado mais original, demorou mais tempo do que parece, programei isto tudo á mão :) amo te imenso, obrigado por exister, estou atualmente a escrever isto enquanto estamos no facetime e estou super ansioso para estar contigo. beijnhos e feliz dia de são valentim</h1><h1>P.S. se viste algum erro ortográfico, desculpa, escrevi isto tudo numa aplicação para editar código</h1><br><h2>- Milton</h2><br><br><h1><a href='#' onclick='button3();'>Início</a></h1>";
+  let text = "<style>button {margin: 0px 40px; margin-bottom: 30px}</style><img class='animation' src='img/coupon.png' alt='' width='350rem'><br><br><h1>e em princípio vais ter mais uma coisa á tua espera quando chegares a casa ;)</h1><br><br><button onclick='button11()'>próximo</button><br><br><h1><a href='#' onclick='button9();'>Voltar</a></h1>";
+  document.getElementById("things").innerHTML = text;
+}
+
+function button11() {
+  let text = "<style>.box {margin-top: -26rem;}button {margin: 0px 40px; margin-bottom: 30px}</style><h1>Tentei fazer algo um pouco mais divertido em vez de apenas um texto ou uma carta, por isso espero que tenhas gostado pelo menos um bocadinho. Estou muito ansioso para estar contigo outra vez, senti muito a tua falta e estou a precisar imenso de algum tempo de qualidade com a minha linda namorada. Obrigado por me fazeres rir, por me fazeres companhia, por me ouvires quando preciso de ti, por me ajudares a mim e à minha família e muito mais. Prometo-te que nunca vou deixar de fazer essas mesmas coisas por ti. Estou eternamente grato pela tua existência e pelo amor que partilhamos.</h1><h1>Eu amo-te hoje, amanhã e sempre.</h1><br><h2>- Milton</h2><br><br><h1><a href='#' onclick='button10();'>Voltar</a></h1><br><h1><a href='#' onclick='button3();'>Início</a></h1>";
   document.getElementById("things").innerHTML = text;
 }
